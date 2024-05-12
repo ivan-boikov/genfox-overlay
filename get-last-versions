@@ -1,0 +1,12 @@
+#!/bin/sh
+
+lv() {
+	curl -sL "$1" | grep '<title>Release '
+}
+
+ls www-plugins/ublock-origin-bin | tail -n1
+lv "https://github.com/gorhill/uBlock/releases/latest"
+ls www-plugins/libredirect-bin | tail -n1
+lv "https://github.com/libredirect/browser_extension/releases/latest"
+ls www-plugins/istilldontcareaboutcookies-bin | tail -n1
+lv "https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/releases/latest"
