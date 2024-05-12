@@ -1,5 +1,5 @@
 # genfox-overlay
-Essential privacy and usability addons, handled like Gentoo packages.
+Essential privacy and usability addons for Firefox, handled like Gentoo packages.
 
 ## Motivation
 * Automatic updates are great until a [rugpull](https://www.i-dont-care-about-cookies.eu/whats-new/acquisition/) [happens](https://adblockplus.org/acceptable-ads).
