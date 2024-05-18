@@ -10,7 +10,7 @@ Essential privacy and usability addons for Firefox, handled like Gentoo packages
 1. `eselect repository add genfox-overlay git https://github.com/ivan-boikov/genfox-overlay.git`
 2. `emaint sync --repo genfox-overlay`
 3. `emerge www-misc/firefox-policy` installs a system-wide policy for blocking updates for the browser and addons specified with USE flags.
-4. `emerge www-misc/arkenfox` installs the [arkenfox](https://github.com/arkenfox/user.js) configuration.
+4. `emerge www-misc/arkenfox` installs the [arkenfox](https://github.com/arkenfox/user.js) configuration system-wide.
 **WARNING by default this clears your history on exit, among other potentially destructive things.**
 Apply user-overrides.js with `savedconfig` USE flag.
 
