@@ -10,3 +10,5 @@ ls www-plugins/libredirect-bin | tail -n1
 lv "https://github.com/libredirect/browser_extension/releases/latest"
 ls www-plugins/istilldontcareaboutcookies-bin | tail -n1
 lv "https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/releases/latest"
+ls www-misc/arkenfox | tail -n1
+lv "https://github.com/arkenfox/user.js/releases/latest"
