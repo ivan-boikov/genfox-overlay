@@ -38,7 +38,7 @@ src_install() {
 	policy=""
 	if use noupdate ; then
 		# browser updates
-		policy="$(jq -n '.policies += { "DisableAppUpdates" : true }')"
+		policy="$(jq -n '.policies += { "DisableAppUpdate" : true }')"
 	fi
 	if use ublock ; then
 		# uBlockOrigin
