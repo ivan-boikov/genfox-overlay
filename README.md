@@ -2,7 +2,7 @@
 Essential privacy and usability addons for Firefox, handled like Gentoo packages.
 
 ## Motivation
-* Automatic updates are great until a [rugpull](https://www.i-dont-care-about-cookies.eu/whats-new/acquisition/) [happens](https://adblockplus.org/acceptable-ads).
+* Automatic updates are great [until](https://github.com/greatsuspender/thegreatsuspender/issues/1263) [a](https://github.com/NanoAdblocker/NanoCore/issues/362) [rugpull](https://www.i-dont-care-about-cookies.eu/whats-new/acquisition/) [happens](https://adblockplus.org/acceptable-ads).
 * Manual updates can be forgotten.
 * Global configuration is useful for multi-user computers.
 
