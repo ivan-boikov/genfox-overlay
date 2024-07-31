@@ -12,7 +12,7 @@ SRC_URI="https://github.com/arkenfox/user.js/archive/refs/tags/${VER}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="+savedconfig"
 
 RDEPEND="
