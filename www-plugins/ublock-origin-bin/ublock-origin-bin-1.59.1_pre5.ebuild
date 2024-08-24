@@ -3,7 +3,7 @@
 
 EAPI=8
 
-VER="1.58.0"
+VER="1.59.1-pre5"
 
 DESCRIPTION="uBlock Origin addon for Firefox"
 HOMEPAGE="https://github.com/gorhill/uBlock"
@@ -15,7 +15,7 @@ SRC_URI="https://addons.mozilla.org/firefox/downloads/file/4261710/${XPI}"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND=""
 DEPEND="${RDEPEND}"

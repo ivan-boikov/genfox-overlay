@@ -15,7 +15,7 @@ SRC_URI="https://addons.mozilla.org/firefox/downloads/file/4261710/${XPI}"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND=""
 DEPEND="${RDEPEND}"
