@@ -1,10 +1,12 @@
-Title: =www-misc/arkenfox-128 changes RFP to FPP
+Title: >=www-misc/arkenfox-128.0 changes RFP to FPP
 Author: Ivan Boikov
 Content-Type: text/plain
 Posted: 2024-08-24
 Revision: 1
 News-Item-Format: 1.0
-Display-If-Installed: =www-misc/arkenfox-128
+Display-If-Installed: >=www-misc/arkenfox-128.0
 
-Arkenfox in v128 will make ResistFingerprinting inactive and use FingerprintingProtection as default
+Arkenfox in v128 will make ResistFingerprinting inactive and use
+FingerprintingProtection as default.
+
 https://github.com/arkenfox/user.js/issues/1804
