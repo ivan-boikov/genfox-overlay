@@ -3,7 +3,7 @@
 
 EAPI=8
 
-VER="2.9.0"
+VER="3.0.2"
 
 DESCRIPTION="LibRedirect addon for Firefox"
 HOMEPAGE="https://github.com/libredirect/browser_extension"
@@ -12,7 +12,7 @@ SRC_URI="https://addons.mozilla.org/firefox/downloads/file/4280925/${XPI}"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND=""
 DEPEND="${RDEPEND}"
