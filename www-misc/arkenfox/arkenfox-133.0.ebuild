@@ -7,7 +7,7 @@ inherit savedconfig
 
 DESCRIPTION="Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening"
 HOMEPAGE="https://github.com/arkenfox/user.js"
-VER="128.0"
+VER="133.0"
 SRC_URI="https://github.com/arkenfox/user.js/archive/refs/tags/${VER}.tar.gz -> arkenfox-${VER}.tar.gz"
 
 LICENSE="MIT"
