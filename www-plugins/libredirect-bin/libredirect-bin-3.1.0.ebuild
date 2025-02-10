@@ -3,7 +3,7 @@
 
 EAPI=8
 
-VER="3.0.2"
+VER="3.1.0"
 
 DESCRIPTION="LibRedirect addon for Firefox"
 HOMEPAGE="https://github.com/libredirect/browser_extension"
