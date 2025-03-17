@@ -7,7 +7,7 @@ inherit savedconfig
 
 DESCRIPTION="Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening"
 HOMEPAGE="https://github.com/arkenfox/user.js"
-VER="133.0"
+VER="135.0"
 SRC_URI="https://github.com/arkenfox/user.js/archive/refs/tags/${VER}.tar.gz -> arkenfox-${VER}.tar.gz"
 
 LICENSE="MIT"
@@ -31,9 +31,9 @@ sanitize() {
 src_prepare() {
 	default
 
-	tar -xf "${DISTDIR}/${VER}.tar.gz"
+	tar -xf "${DISTDIR}/arkenfox-${VER}.tar.gz"
 
-	restore_config user-overrides.js
+	restore_config 'user-overrides.js'
 	if [ ! -f "user-overrides.js" ]; then
 		echo '// user_pref("parameter", "value")' > "user-overrides.js"
 	fi
@@ -63,5 +63,5 @@ EOF
 		cp "user.js-${VER}/arkenfox.cfg" "${D}/usr/lib/firefox/"
 	fi
 
-	save_config user-overrides.js
+	save_config 'user-overrides.js'
 }
