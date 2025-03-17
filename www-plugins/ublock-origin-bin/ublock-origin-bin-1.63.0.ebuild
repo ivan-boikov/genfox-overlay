@@ -3,7 +3,7 @@
 
 EAPI=8
 
-VER="1.61.3b2"
+VER="1.63.0"
 
 DESCRIPTION="uBlock Origin addon for Firefox"
 HOMEPAGE="https://github.com/gorhill/uBlock"
