@@ -1,9 +1,9 @@
-# Copyright 2024 Ivan Boikov
+# Copyright 2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-VER="3.1.0"
+VER="3.2.0"
 
 DESCRIPTION="LibRedirect addon for Firefox"
 HOMEPAGE="https://github.com/libredirect/browser_extension"
