@@ -1,9 +1,9 @@
-# Copyright 2024 Ivan Boikov
+# Copyright 2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-VER="1.62.0"
+VER="1.64.0"
 
 DESCRIPTION="uBlock Origin addon for Firefox"
 HOMEPAGE="https://github.com/gorhill/uBlock"
