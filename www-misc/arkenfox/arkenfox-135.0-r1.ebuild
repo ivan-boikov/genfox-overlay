@@ -58,7 +58,11 @@ EOF
 		dodir "/opt/firefox"
 		cp "user.js-${VER}/arkenfox.cfg" "${D}/opt/firefox/"
 	fi
-	if [ -d "/usr/lib/firefox" ]; then # "firefox" in installed
+	if [ -d "/usr/lib64/firefox" ]; then # "firefox" in installed
+		dodir "/usr/lib64/firefox"
+		cp "user.js-${VER}/arkenfox.cfg" "${D}/usr/lib64/firefox/"
+	fi
+	if [ -d "/usr/lib/firefox" ]; then # "firefox" in installed but somehow not in lib64
 		dodir "/usr/lib/firefox"
 		cp "user.js-${VER}/arkenfox.cfg" "${D}/usr/lib/firefox/"
 	fi
