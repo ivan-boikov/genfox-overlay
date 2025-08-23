@@ -1,4 +1,4 @@
-# Copyright 2024 Ivan Boikov
+# Copyright 2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,7 @@ inherit savedconfig
 
 DESCRIPTION="Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening"
 HOMEPAGE="https://github.com/arkenfox/user.js"
-VER="135.0"
+VER="140.0"
 SRC_URI="https://github.com/arkenfox/user.js/archive/refs/tags/${VER}.tar.gz -> arkenfox-${VER}.tar.gz"
 
 LICENSE="MIT"
